@@ -56,9 +56,10 @@ comments:
     provider: utterances
     
     utterances:
-        repo:
-        issueTerm:
-        label: 
+        repo:"residualsun1/MyBlog"
+        issueTerm:"pathname"
+        theme="github-light"
+        crossorigin="anonymous"
 
 menu:
   header:
