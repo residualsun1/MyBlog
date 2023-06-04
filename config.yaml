@@ -1,4 +1,4 @@
-baseurl: "https://example.com"
+baseurl: https://guozheng.netlify.app/
 languageCode: "en-us"
 title: "残日留痕"
 theme: "hugo-tania"
