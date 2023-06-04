@@ -51,15 +51,18 @@ params:
     whatsapp:
   
   # Comments settings
-comments:
+  comments:
     enabled: true
     provider: utterances
-    
+
     utterances:
-        repo:"residualsun1/MyBlog"
-        issueTerm:"pathname"
-        theme="github-light"
-        crossorigin="anonymous"
+      repo: "residualsun1/MyBlog"
+      issueTerm: "pathname"
+      theme: "github-light"
+      crossorigin: "anonymous"
+      category:
+        name: Comments
+        id: DIC_kwDOEtnPc84B_WKP
 
 menu:
   header:
