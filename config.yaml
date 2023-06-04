@@ -65,7 +65,7 @@ menu:
   header:
     - name: 主页
       weight: 100
-      url: "/homepage/"
+      url: "/home/"
     - name: 文章
       weight: 200
       url: "/articles/"
