@@ -61,6 +61,9 @@ params:
       category:
         name: Comments
         id: DIC_kwDOEtnPc84B_WKP
+        theme: "preferred_color_scheme"
+        lang: "zh-CN"
+        crossorigin: "anonymous"
 
 menu:
   header:
