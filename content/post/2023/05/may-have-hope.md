@@ -13,14 +13,11 @@ DisableComments: no
 toc: yes
 ---
 
-<br/><br/>
+> “Found myself inside your world……I like it when you're surrounding me, wanna live in your eyes”[^Song lyric]
 
->>> “Found myself inside your world……I like it when you're surrounding me, wanna live in your eyes”[^Song lyric]
 [^Song lyric]: EYE(S)(Live Session)， 歌手：LÜCY，专辑：Folk Ÿou Live Session
 
-<br/><br/>
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1874946820&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" allow="autoplay" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1874946820&auto=1&height=66"></iframe>
 
 ## Blogdown又出问题了  
 
