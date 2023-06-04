@@ -9,8 +9,6 @@ tags: []
 toc: yes
 ---
 
-> “Tracing your own inner voice. Keep it, keep it, still keep it.”
-
 ## A.前言
 
 如果没有学期作业等着，或者我会更加放宽心去做我所要做的事情。
