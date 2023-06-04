@@ -53,17 +53,13 @@ params:
   # Comments settings
   comments:
     enabled: true
-    provider: giscus
+    provider: utterances
 
-    giscus:
-      repo: residualsun1/MyBlog
-      id: R_kgDOJrTsvg
-      category:
-        name: Comments
-        id: DIC_kwDOEtnPc84B_WKP
-        theme: "preferred_color_scheme"
-        lang: "zh-CN"
-        crossorigin: "anonymous"
+    utterances:
+      repo: "residualsun1/MyBlog"
+      issueTerm: "pathname"
+      theme: "github-light"
+      crossorigin: "anonymous"
 
 menu:
   header:
