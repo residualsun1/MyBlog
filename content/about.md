@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: 个人情况
 author: 'Residualsun'
 date: '2023-06-04'
 ---
