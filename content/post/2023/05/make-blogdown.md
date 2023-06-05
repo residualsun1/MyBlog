@@ -1,6 +1,6 @@
 ---
 title: Blogdown的折腾之旅
-author: Residualsun
+author: 黄国政
 date: '2023-05-29'
 slug: []
 categories:

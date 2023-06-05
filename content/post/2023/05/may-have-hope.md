@@ -1,6 +1,6 @@
 ---
 title: 或许是柳暗花明
-author: Residualsun
+author: 黄国政
 date: '2023-05-31'
 slug: []
 categories:

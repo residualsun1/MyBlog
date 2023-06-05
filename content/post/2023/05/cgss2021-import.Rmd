@@ -1,6 +1,6 @@
 ---
 title: CGSS2021数据录入与清洗
-author: Residualsun
+author: 黄国政
 date: '2023-05-29'
 slug: []
 categories:
