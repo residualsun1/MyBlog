@@ -2,8 +2,8 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": false
+            "ascending": true
         }
     ],
-    "path": "D:/04_Rrender/Blogdown/MyBlog"
+    "path": "D:/04_Rrender/Blogdown/MyBlog/content"
 }
