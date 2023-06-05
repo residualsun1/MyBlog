@@ -11,8 +11,8 @@
                             {{ if eq $author nil }}
                               {{ $author = .Site.Params.author }}
                             {{ end }}
-                            By {{ $author  }} | <time>{{ .Date.Format "2006/01/02" }}</time>
-                            | {{ .ReadingTime }} minutes
+                            {{ $author  }} | <time>{{ .Date.Format "2006/01/02" }}</time>
+                            | {{ .ReadingTime }} 分钟
                         </div>
                         <div class="tags">
                             {{ range (.GetTerms "tags") }}
@@ -35,14 +35,14 @@
     <nav class="flex container suggested">
         {{ with .PrevInSection }}
         <a rel="prev" href="{{ .RelPermalink }}" title="Previous post (older)">
-            <span>Previous</span>
+            <span>上一篇</span>
             {{ .Title }}
             </a>
         {{ end }}
         
         {{ with .NextInSection }}
         <a rel="next" href="{{ .RelPermalink }}" title="Next post (newer)">
-            <span>Next</span>
+            <span>下一篇</span>
             {{ .Title }}
             </a> 
         {{ end }}
