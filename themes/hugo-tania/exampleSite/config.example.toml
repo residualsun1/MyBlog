@@ -20,7 +20,7 @@ disqusShortname = "https-hugo-tania-netlify-app"
   siteName = "Hugo Tania is Amazing"
   siteDesc = "Hugo is Absurdly Fast!"
   author = "Hugo Tania"
-
+  
   [params.colorScheme]
     # Enable toggle colorScheme
     # Default to true

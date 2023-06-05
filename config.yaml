@@ -8,6 +8,11 @@ favicon: "favicon.ico"
 disqusShortname: https-hugo-tania-netlify-app
 
 params:
+
+  page_view_conter: true
+  isCJKLanguage: true
+  hasCJKLanguage: true
+
   # Emoji will show before the blog title on site navbar.
   titleEmoji: 
   
