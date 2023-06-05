@@ -69,11 +69,14 @@ menu:
     - name: 文章
       weight: 200
       url: "/articles/"
-    - name: 标签
+    - name: 分类
       weight: 300
+      url: "/categories/"
+    - name: 标签
+      weight: 400
       url: "/tags/"
     - name: 关于
-      weight: 400
+      weight: 500
       url: "/about/"
   footer:
     - name: RSS
