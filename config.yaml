@@ -2,7 +2,7 @@ baseurl: https://guozheng.netlify.app/
 languageCode: "en-us"
 title: "残日留痕"
 theme: "hugo-tania"
-paginate: 6
+paginate: 3
 favicon: "favicon.ico"
 
 disqusShortname: https-hugo-tania-netlify-app
@@ -65,7 +65,7 @@ menu:
   header:
     - name: 主页
       weight: 100
-      url: "/home/"
+      url: "/"
     - name: 文章
       weight: 200
       url: "/articles/"
