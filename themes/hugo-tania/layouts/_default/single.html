@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="container">
+    <article>
+        <header class="article-header">
+            <div class="thumb">
+                <div>
+                    <h1>{{ .Title }}</h1>
+                    <div class="post-meta">
+                        <div>
+                            {{ $author := .Params.author }}
+                            {{ if eq $author nil }}
+                              {{ $author = .Site.Params.author }}
+                            {{ end }}
+                            {{ $author  }} | <time>{{ .Date.Format "2006/01/02" }}</time>
+                            | {{ if .Site.Params.page_view_conter  }}
+                    <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span><span>
+                    {{ partial "page_view_counter.html" .  }}
+                    <span class="post-word-count">共{{ .WordCount  }}字</span>，阅读约<span class="more-meta"> {{ .ReadingTime  }} 分钟</span>
+            {{ end  }}
+                        </div>
+                        <div class="tags">
+                            {{ range (.GetTerms "tags") }}
+                            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </article>
+
+    <div class="article-post">
+    {{ .Content }}
+    </div>
+</div>
+
+<div class="container">
+    {{ if .Section }}
+    <nav class="flex container suggested">
+        {{ with .PrevInSection }}
+        <a rel="prev" href="{{ .RelPermalink }}" title="Previous post (older)">
+            <span>上一篇</span>
+            {{ .Title }}
+            </a>
+        {{ end }}
+        
+        {{ with .NextInSection }}
+        <a rel="next" href="{{ .RelPermalink }}" title="Next post (newer)">
+            <span>下一篇</span>
+            {{ .Title }}
+            </a> 
+        {{ end }}
+    </nav>
+    {{ end }}
+</div>
+{{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
+<div class="container">
+    {{ partial "comments/include" . }}
+</div>
+{{ end }}
+</main>
+
+{{ end }}
